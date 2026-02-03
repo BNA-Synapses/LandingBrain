@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>BrainMode — Demonstração</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="./favicon.png">
+<style>
+body{
+  margin:0;
+  min-height:100vh;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  color:#fff;
+  background:
+    linear-gradient(rgba(5,8,24,.85), rgba(5,8,24,.85)),
+    url("Bg.png") center/cover no-repeat;
+}
+.header{
+  padding:18px 20px;
+  font-weight:700;
+  font-size:18px;
+}
+.sub{
+  font-size:13px;
+  opacity:.7;
+}
+.wrapper{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+.card{
+  max-width:520px;
+  width:100%;
+  background:rgba(255,255,255,.08);
+  backdrop-filter: blur(8px);
+  border-radius:18px;
+  padding:28px;
+  text-align:center;
+}
+h1{
+  font-size:22px;
+  margin-bottom:14px;
+}
+p{
+  font-size:14px;
+  line-height:1.6;
+  opacity:.85;
+  margin-bottom:26px;
+}
+a.btn{
+  display:inline-block;
+  padding:14px 32px;
+  border-radius:30px;
+  background:linear-gradient(90deg,#3bd6cf,#4a7cff);
+  color:#081023;
+  font-weight:700;
+  text-decoration:none;
+}
+@media(min-width:900px){
+  .wrapper{min-height:calc(100vh - 80px)}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  BrainMode
+  <div class="sub">Demonstração</div>
+</div>
+
+<div class="wrapper">
+  <div class="card">
+    <h1>Converse com o BNA Professor</h1>
+    <p>
+      Esta é uma demonstração funcional do BrainMode.
+      Aqui você pode conversar livremente e experimentar
+      como o sistema acompanha seu raciocínio
+      e se adapta à sua forma de pensar.
+    </p>
+    <a class="btn" href="https://chat-bna-f-1.onrender.com/chat.html">
+      Iniciar demonstração
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
